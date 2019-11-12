@@ -21,43 +21,76 @@
 <div class="wrapper">
     <section class="info">
         <h1 class="center">Анкета</h1>
-        <div class="icon i-info"></div>
-        <h2 class="center">Личная информация</h2>
         <form action="">
+            <div class="icon i-info"></div>
+            <h2 class="center head-margin">Личная информация</h2>
             <div class="form-row">
-                <input type="text" class="input-text" required>
+                <input type="text" class="input-text form-field" required value="Славинский Дмитрий Игоревич">
                 <div class="floating-label">ФИО</div>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text" required>
+                <select class="select2">
+                    <option value="">1988</option>
+                    <option selected value="a">1989</option>
+                    <option value="b">1990</option>
+                    <option value="c">1991</option>
+                    <option value="d">1992</option>
+                    <option value="e">1993</option>
+                    <option value="f">1994</option>
+                    <option value="g">1995</option>
+                    <option value="h">1996</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <input type="text" class="input-text form-field" required value="Молдова г. Тирасполь">
                 <div class="floating-label">Место проживания</div>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text" required>
+                <input type="text" class="input-text form-field" required value="milan_fan89">
                 <div class="floating-label">Skype</div>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text" required>
+                <input type="text" class="input-text form-field" required value="milanac89@yandex.ru">
                 <div class="floating-label">E-mail</div>
             </div>
             <div class="icon i-skill"></div>
             <h2 class="center">Расскажите о своем опыте</h2>
             <ul class="list-skill">
-                <li><input type="checkbox" id="a1"><label for="a1"><span></span>БЭМ/OOCSS</label></li>
-                <li><input type="checkbox" id="a2"><label for="a2"><span></span>Stylus/LESS/SASS</label></li>
-                <li><input type="checkbox" id="a3"><label for="a3"><span></span>Работаю с SVG</label></li>
-                <li><input type="checkbox" id="a4"><label for="a4"><span></span>Верстаю семантично</label></li>
-                <li><input type="checkbox" id="a5"><label for="a5"><span></span>ES2015/ES2016</label></li>
+                <li><input checked type="checkbox" id="a1"><label for="a1"><span></span>БЭМ/OOCSS</label></li>
+                <li><input checked  type="checkbox" id="a2"><label for="a2"><span></span>Stylus/LESS/SASS</label></li>
+                <li><input checked  type="checkbox" id="a3"><label for="a3"><span></span>Работаю с SVG</label></li>
+                <li><input checked  type="checkbox" id="a4"><label for="a4"><span></span>Верстаю семантично</label></li>
+                <li><input checked  type="checkbox" id="a5"><label for="a5"><span></span>ES2015/ES2016</label></li>
                 <li><input type="checkbox" id="a6"><label for="a6"><span></span>Gulp/GRUNT</label></li>
-                <li><input type="checkbox" id="a7"><label for="a7"><span></span>Webpack</label></li>
-                <li><input type="checkbox" id="a8"><label for="a8"><span></span>jQuery</label></li>
-                <li><input type="checkbox" id="a9"><label for="a9"><span></span>Ипользую Git</label></li>
+                <li><input checked  type="checkbox" id="a7"><label for="a7"><span></span>Webpack</label></li>
+                <li><input checked  type="checkbox" id="a8"><label for="a8"><span></span>jQuery</label></li>
+                <li><input checked  type="checkbox" id="a9"><label for="a9"><span></span>Ипользую Git</label></li>
             </ul>
+            <div class="icon i-js"></div>
+            <h2 class="center">Уровень владения JavaScript</h2>
+            <ul class="js-list">
+                <li>Не владею</li>
+                <li>Использую готовые<br>решения</li>
+                <li>Использую готовые решения<br>и умею и переделывать</li>
+                <li>Пишу сложный JS с нуля</li>
+            </ul>
+            <div class="slider-wrapper">
+                <input type="text" class="js-customized" />
+            </div>
+            <div class="icon i-about"></div>
+            <h2 class="center">Расскажите о себе</h2>
+            <p class="about-descr center">Напишите несколько предложений, чем привлекла наша вакансия<br>и что вы ожидаете от работы у нас.</p>
+            <textarea class="form-field textarea" placeholder="Понравилась тем, что..">Серьезная организация и подход) В первую очередь не хочу подвести, и надеюсь на удачное сотрудничество в обе стороны) Ожидаю улучшения навыков, новых знакомств, комфортных условий труда. </textarea>
+            <button type="submit">Готово</button></p>
         </form>
     </section>
 </div>
 <script src="js/jquery.js"></script>
 <script src="js/menu.js"></script>
-
+<script src="js/slider.js"></script>
+<script src="js/main.js"></script>
+<script src="js/select.js"></script>
+<script src="js/select-to.js"></script>
+<script src="js/scroll.js"></script>
 </body>
 </html>
