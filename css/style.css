@@ -1,0 +1,302 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap&subset=cyrillic');
+html.ios{
+	cursor: pointer;
+}
+body{
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Roboto', sans-serif;
+	color: #1c1c1c;
+	font-size: 16px;
+}
+.bc{
+	background-image: linear-gradient(to top, rgb(255, 255, 255, 1) 0%, transparent 70%), url(../img/background.jpg);
+	background-repeat: no-repeat;
+	height: 180px;
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	background-size: cover;
+}
+li{
+	list-style: none;
+}
+nav{
+	height: 80px;
+}
+
+a:hover, a:active, a:focus{
+	text-decoration: none;
+}
+nav a{
+	margin: 0 27px;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 0 10px;
+	font-weight: 300;
+	color: #435993;
+}
+nav:not(.mobile-nav) a.active{
+	color: #1c1c1c;
+}
+nav.mobile-nav a.active{
+	font-weight: bold;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu{
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	background-color: #fff;
+}
+.mobile-close{
+	background-color: red;
+	background-color: rgba(5, 26, 43, 0.7);
+}
+.mobile-nav{
+	position: fixed;
+	width: 100%;
+	background-color: #435993;
+	text-align: center;
+	padding: 50px 0 15px 0;
+	z-index: 4;
+	height: 100vh;
+	top: 0;
+}
+.mobile-nav a{
+	color: #fff;
+	display: block;
+	margin-bottom: 30px;
+}
+.close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: url('../img/close.svg') center center no-repeat;
+	background-size: 100%;
+	z-index: 11;
+	display: none;
+}
+.mobile-nav + .close{
+	display: block;
+}
+
+.menu img {
+    display: none;
+	margin: 29px 15px;
+}
+.mobile-nav nav{
+	flex-direction: column;
+}
+
+.menu-modal{
+	width: calc(100% - 17px);
+}
+
+
+.info{
+	padding-top: 210px;
+}
+
+.center{
+	text-align: center;
+}
+
+h1{
+	font-weight: 100;
+	font-size: 70px;
+	color: #000000;
+}
+.icon{
+	width: 47px;
+	height: 47px;
+	margin: 70px auto 30px auto;
+}
+.i-info{
+	background: url('../img/i-info.png') center center no-repeat;
+}
+.i-skill{
+	background: url('../img/i-skill.png') center center no-repeat;
+}
+h2{
+	font-size: 30px;
+	font-weight: 300;
+}
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label{
+	top: -55px;
+	font-size: 14px;
+	opacity: 1;
+}
+
+.input-text {
+	font-size: 20px;
+	height: 60px;
+	box-sizing: border-box;
+	padding: 18px 10px 0 10px;
+	width: 100%;
+	border: 1px solid #e5e5e5;
+	border-radius: 5px;
+	color: #1c1c1c;
+	text-align: center;
+}
+
+
+.floating-label {
+	pointer-events: none;
+	transition: 0.2s ease all;
+	color: #c8c8c8;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: -41px;
+}
+.form-row{
+	position: relative;
+	max-width: 520px;
+	margin: 0 auto 25px auto;
+	height: 60px;
+}
+.wrapper{
+	max-width: 768px;
+	padding: 0 15px;
+	margin: 0 auto;
+	position: relative;
+}
+
+form{
+	margin-top: 45px;
+}
+.list-skill{
+	font-size: 16px;
+	font-weight: 300;
+	-moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3;
+	margin-top: 55px;
+}
+.list-skill li{
+	margin-bottom: 16px;
+}
+input[type="checkbox"] {
+	display: none;
+}
+input[type="checkbox"] + label span {
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	margin: -3px 10px 0 0;
+	vertical-align: middle;
+	background: url("../img/check.png") left bottom no-repeat;
+	cursor: pointer;
+}
+input[type="checkbox"]:checked + label span {
+	background: url("../img/check.png") -40px bottom no-repeat;
+}
+input[type="checkbox"]:hover:not(:checked) + label span {
+	background: url("../img/check.png") -20px bottom no-repeat;
+}
+.list-skill label{
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1200px) {
+	.modal_close {
+		width: 100%;
+		height: 50px;
+	}
+	.modal-box{
+		margin-top: 50px;
+	}
+	.modal_close svg{
+		margin-top: 14px;
+	}
+}
+@media only screen and (max-width : 992px) {
+
+}
+@media only screen and (max-width : 768px) {
+	.list-skill{
+		-moz-column-count: 2;
+		-webkit-column-count: 2;
+		column-count: 2;
+	}
+	.menu img {
+		display: block;
+	}
+	.menu nav:not(.mobile-nav) {
+		display: none;
+	}
+	nav{
+		display: block;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.list-skill{
+		-moz-column-count: 1;
+		-webkit-column-count: 1;
+		column-count: 1;
+	}
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
