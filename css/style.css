@@ -353,13 +353,13 @@ button{
 	.i-about {
 		background-image: url('../img/i-about2x.png');
 	}
-	.select2-dropdown-open .select2-choice .select2-arrow b {
-		background: url(../img/arrow-top2x.png) no-repeat;
-		background-size: 14px 9px;
-	}
-	.select2-container .select2-choice .select2-arrow b {
+	.select2-container .select2-choice .select2-arrow {
 		background: url(../img/arrow-bottom2x.png) no-repeat;
 		background-size: 14px 9px;
+	}
+	.select2-dropdown-open .select2-choice .select2-arrow {
+		background: url(../img/arrow-top2x.png) no-repeat ;
+		background-size: 14px 9px ;
 	}
 	.range-handle{
 		background: url(../img/marker2x.png) 0 0 no-repeat;
