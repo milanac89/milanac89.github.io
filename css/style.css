@@ -288,7 +288,9 @@ button{
 	color: #c8c8c8;
 }
 
-
+.select2-default span {
+    color: #c8c8c8 !important;
+}
 
 
 

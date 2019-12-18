@@ -11,10 +11,10 @@
 <div class="menu">
     <img src="img/menu.svg" alt="">
     <nav>
-        <a class="active" href="">Личная информация</a>
-        <a href="">Опыт</a>
-        <a href="">JavaScript</a>
-        <a href="">О себе</a>
+        <a href="#info">Личная информация</a>
+        <a href="#skills">Опыт</a>
+        <a href="#js">JavaScript</a>
+        <a href="#about">О себе</a>
     </nav>
     <a class="close" href=""></a>
 </div>
@@ -23,15 +23,16 @@
         <h1 class="center">Анкета</h1>
         <form action="">
             <div class="icon i-info"></div>
-            <h2 class="center head-margin">Личная информация</h2>
+            <h2 id="info" class="center head-margin">Личная информация</h2>
             <div class="form-row">
-                <input type="text" class="input-text form-field" required value="Славинский Дмитрий Игоревич">
+                <input type="text" class="input-text form-field" required>
                 <div class="floating-label">ФИО</div>
             </div>
             <div class="form-row">
                 <select class="select2">
+					<option value=""></option>
                     <option value="">1988</option>
-                    <option selected value="a">1989</option>
+                    <option>1989</option>
                     <option value="b">1990</option>
                     <option value="c">1991</option>
                     <option value="d">1992</option>
@@ -42,19 +43,19 @@
                 </select>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text form-field" required value="Молдова г. Тирасполь">
+                <input type="text" class="input-text form-field" required>
                 <div class="floating-label">Место проживания</div>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text form-field" required value="milan_fan89">
+                <input type="text" class="input-text form-field" required>
                 <div class="floating-label">Skype</div>
             </div>
             <div class="form-row">
-                <input type="text" class="input-text form-field" required value="milanac89@yandex.ru">
+                <input type="text" class="input-text form-field" required>
                 <div class="floating-label">E-mail</div>
             </div>
             <div class="icon i-skill"></div>
-            <h2 class="center">Расскажите о своем опыте</h2>
+            <h2 id="skills" class="center">Расскажите о своем опыте</h2>
             <ul class="list-skill">
                 <li><input checked type="checkbox" id="a1"><label for="a1"><span></span>БЭМ/OOCSS</label></li>
                 <li><input checked  type="checkbox" id="a2"><label for="a2"><span></span>Stylus/LESS/SASS</label></li>
@@ -67,7 +68,7 @@
                 <li><input checked  type="checkbox" id="a9"><label for="a9"><span></span>Ипользую Git</label></li>
             </ul>
             <div class="icon i-js"></div>
-            <h2 class="center">Уровень владения JavaScript</h2>
+            <h2 id="js" class="center">Уровень владения JavaScript</h2>
             <ul class="js-list">
                 <li>Не владею</li>
                 <li>Использую готовые<br>решения</li>
@@ -78,9 +79,9 @@
                 <input type="text" class="js-customized" />
             </div>
             <div class="icon i-about"></div>
-            <h2 class="center">Расскажите о себе</h2>
+            <h2 id="about" class="center">Расскажите о себе</h2>
             <p class="about-descr center">Напишите несколько предложений, чем привлекла наша вакансия<br>и что вы ожидаете от работы у нас.</p>
-            <textarea class="form-field textarea" placeholder="Понравилась тем, что..">Серьезная организация и подход) В первую очередь не хочу подвести, и надеюсь на удачное сотрудничество в обе стороны) Ожидаю улучшения навыков, новых знакомств, комфортных условий труда. </textarea>
+            <textarea class="form-field textarea" placeholder="Понравилась тем, что.."></textarea>
             <button type="submit">Готово</button></p>
         </form>
     </section>
