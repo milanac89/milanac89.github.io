@@ -1,0 +1,614 @@
+@import url('reset.css');
+@import url('form.css');
+@import url('fonts.css');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700');
+
+body{
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: #616161;
+	font-size: 16px;
+}
+h1, h2, h3 {
+	font-family: 'Conv_Handelson-FourCYR';
+	color: #343434;
+}
+.wrapper{
+	background: url("../img/main.png") right top no-repeat;
+}
+.main{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 1170px;
+	margin: 0 auto;	
+	padding-bottom: 30px;
+}
+.header-has-background{
+	position: fixed;
+	width: 100%;
+	background-color: #F29BA2;
+	top: 0;
+	z-index: 1;
+}
+.header-has-background .logo{
+	background: url("../img/logo768.png") left top no-repeat;
+}
+.hidden-nav .logo{
+	background: url("../img/logo768.png") center top no-repeat;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.logo{
+	background: url("../img/logo.png") left top no-repeat;
+	width: 143px;
+	height: 35px;
+}
+/*.menu span{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+}*/
+.menu img{
+	vertical-align: middle;
+	margin-left: 30px;
+}
+.menu{
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.main-block{
+	margin-top: 90px;
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+	font-size: 80px;
+	line-height: 78px;
+	margin: 80px 0 40px 0;
+}
+.main-block p{
+	line-height: 25px;
+	padding-bottom: 20px;
+	max-width: 450px;
+}
+.main-block a{
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	width: 265px;
+	height: 70px;
+	line-height: 70px;
+	background: #f798a5;
+	border-radius:35px;
+	box-sizing:border-box;
+	border: none;
+	cursor: pointer;
+	margin-top: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+.social{
+	text-align: center;
+	margin-top: 205px;
+}
+h2{
+	font-size: 60px;
+	margin: 0 0 45px 0;
+	text-align: center;
+}
+.social-text {
+	max-width: 660px;
+	margin: 0 auto;
+	line-height: 30px;
+	margin-bottom: 115px;
+}
+.social form{
+	position: relative;
+	margin: 0 auto 40px auto;
+}
+.social form input{
+	width: 360px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #E9E9E9;
+	font-style: italic;
+	color: #727272;
+	font-size: 16px;
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+.social form a{
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	background: url("../img/send.png") left top no-repeat;	
+	margin-left: -25px;
+	top: 14px;
+	position: absolute;
+}
+.social-btn a{
+	margin-left: 15px;
+}
+.social-btn span{
+	padding-right: 5px;
+}
+.social-btn a img{
+	vertical-align: middle;
+}
+.why, .questions{
+	margin: 170px auto 0 auto;
+	max-width: 1170px;
+	display: flex; 
+	align-items: center;
+	flex-direction: column;
+}
+
+.why > div{
+	width: 860px;
+	display: flex; 
+	justify-content: space-between;
+	margin-top: 40px;
+	
+}
+
+h3{
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.why h2{
+	margin-bottom: 110px;
+}
+
+.why-block-text{
+	max-width: 290px;	
+	margin-top: 85px;
+}
+.why-block-text div{
+	line-height: 28px;
+}
+.questions h2{
+	margin-bottom: 80px;
+}
+.questions > div{
+	width: 840px;
+	padding-right: 20px;	
+}
+h4{
+	font-size: 25px;
+	font-weight: 600;
+	color: #444444;
+	cursor: pointer;
+	background: url("../img/plus.png") left 20px center no-repeat;	
+}
+.questions > div > *{
+	padding-left: 90px;
+}
+.questions > div > div{
+	line-height: 25px;
+	padding-right: 90px;
+	margin-top: 20px;
+	display: none;
+}
+.questions hr{
+	margin: 45px 0 45px 90px;
+	border-top: 1px solid #E9E9E9;
+}
+h4.head-open{
+	background-image: url("../img/minus.png");
+}
+
+.questions-wrap{
+	background: url("../img/questions.jpg") calc(50% + 680px) 220px no-repeat;
+}
+.sign{
+	/*background: url("../img/sign.jpg") top left no-repeat;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f297a1+0,f4a9a8+100 */
+	background: #f297a1; /* Old browsers */
+	background: -moz-linear-gradient(left, #f297a1 0%, #f4a9a8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #f297a1 0%,#f4a9a8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #f297a1 0%,#f4a9a8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f297a1', endColorstr='#f4a9a8',GradientType=1 ); /* IE6-9 */
+	text-align: center;
+	padding: 65px 0 80px 0;
+	margin-top: 50px;
+}
+.sign h2, .sign > div{
+	color: #fff;
+}
+
+.sign form{
+	margin-top: 65px;
+}
+.sign form input{
+	width: 550px;
+	height: 56px;
+	padding: 0 25px;
+	font-style: italic;
+	color: #727272;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;	
+	border-radius: 10px;
+	border: 2px solid #e3838d;
+	border-radius: 28px;
+}
+.sign form a{
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	display: inline-block;
+	width: 185px;
+	height: 52px;
+	line-height: 52px;
+	background: #f89da7;
+	border-radius:35px;
+	box-sizing:border-box;
+	border: none;
+	text-decoration: none;
+	position: absolute;
+	margin-left: -189px;
+	margin-top: 4px;
+}
+.sign form a:after{
+	content: "Become a member";	
+}
+footer{
+	max-width: 1170px;
+	margin: 0 auto;	
+	padding: 80px 0 70px 0;
+}
+footer > span {
+	color: #343434;
+	margin-left: 75px;
+	vertical-align: top;
+	background: url("../img/copyright.png") left 3px no-repeat;
+	display: inline-block;
+	padding: 5px 0 7px 40px;	
+}
+footer nav{
+	float: right;
+}
+footer img{
+	float: left;
+}
+nav a{
+	text-decoration: none;
+	color: #343434;
+	margin-left: 15px;
+}
+.box-modal{
+	display: none;
+}
+
+.sign > div{
+	line-height: 26px;
+}
+.hidden-nav{
+	position: fixed;
+	width: 100%;
+	background-color: #f29ba2;
+	text-align: center;
+	padding: 70px 0 15px 0;
+	z-index: 3;
+	height: 100vh;
+	display: none;
+	top: 0;
+}
+.hidden-nav a{
+	color: #fff;
+	display: block;
+	margin-bottom: 30px;
+}
+.hidden-nav .close{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+.menu-footer{
+	float: right;
+	display: none;
+	cursor: pointer;
+}
+.menu img{
+	display: none;
+}
+.menu a{
+	color: #fff;
+}
+
+#modal_form {
+	width: 300px; 
+	height: 300px; 
+	background: #fff;
+	position: fixed; 
+	top: 45%; 
+	left: 50%; 
+	margin-top: -150px;
+	margin-left: -150px; 
+	display: none; 
+	opacity: 0; 
+	z-index: 5; 
+	padding: 30px 35px;
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+	box-sizing:border-box;
+	text-align: center;
+	color: #343434;
+}
+#overlay {
+	z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+	position:fixed; /* всегдa перекрывaет весь сaйт */
+	background-color:#fff; /* чернaя */
+	opacity:0.5; /* нo немнoгo прoзрaчнa */
+	-moz-opacity:0.5; /* фикс прозрачности для старых браузеров */
+	filter:alpha(opacity=50);
+	width:100%; 
+	height:100%; /* рaзмерoм вo весь экрaн */
+	top:0; /* сверху и слевa 0, oбязaтельные свoйствa! */
+	left:0;
+	cursor:pointer;
+	display:none; /* в oбычнoм сoстoянии её нет) */
+}
+.modal-title{
+	font-size: 28px;
+	font-weight: 700;
+}
+.modal-text{
+	line-height: 26px;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 1200px) {
+footer, .main, .header{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.wrapper {
+    background: url("../img/main.png") 250px top no-repeat;
+}
+}
+
+
+@media only screen and (max-width : 992px) {
+	.main-block img{
+		order: 1;
+		max-width: 479px;
+	}
+	.main-block{
+		flex-direction: column;
+	}
+	.main-block > div{
+		order: 2;
+	}
+	.why > div, .questions > div {
+		width: 90%;
+	}
+	footer > span {
+		clear: both;
+		text-align: center;
+		border-top: 1px solid #E9E9E9;
+		display: block;
+		margin-left: 0;
+		padding-top: 30px;
+		padding-left: 0;
+		background-position: calc(50% - 115px) 25px;
+	}
+	footer > img {
+		margin-bottom: 30px;
+	}	
+	footer{
+		padding-top: 35px;
+		padding-bottom: 30px;
+	}	
+	.main-block img {
+		max-width: 479px;
+		margin: 0 auto;
+	}	
+}
+
+@media only screen and (max-width : 768px) {
+	.sign form input{
+		width: 85%;
+	}
+	.why > div{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.why-mobile img{
+		order: 2;
+	}
+	.why h2 {
+		margin-bottom: 0;
+	}
+	.why > div img{
+		margin-top: 35px;
+	}
+	.why-block-text {
+		max-width: none;
+	}
+	.wrapper {
+		background: url("../img/main.png") -220px 0px no-repeat;
+	}	
+	.logo{
+		background-image: url("../img/logo768.png");
+	}	
+	.menu-footer, .menu img{
+		display: block;
+	}
+	footer nav, .menu nav{
+		display: none;
+	}
+	nav a{
+		margin-left: 0;
+	}
+}
+@media only screen and (max-width : 480px) {
+	.main-block img{
+		max-width: 80%;
+	}
+	h1{
+		font-size: 40px;
+		line-height: 50px;
+		margin-top: 50px;
+	}
+	h2{
+		font-size: 35px;
+		margin-bottom: 30px;
+	}	
+	h3{
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	h4{
+		font-size: 20px;
+		line-height: 30px;
+		background-position: left center;
+	}
+	.main-block p{
+		display: none;
+	}
+	.main-block a{
+		font-size: 16px;
+		width: 230px;
+		height: 60px;
+		line-height: 60px;
+	}
+	.social{
+		margin-top: 70px;
+	}
+	.social-text{
+		margin-bottom: 40px;
+		width: 90%;
+	}
+	.why, .questions{
+		margin-top: 90px;
+	}
+	.social form input{
+		width: 85%;
+	}
+	.why-block-text{
+		margin-top: 10px;
+	}
+	.why > div img {
+		max-width: 90%;
+		margin: 30px auto 15px auto;
+	}	
+	.questions h2{
+		margin-bottom: 70px;
+	}
+	.questions hr {
+		margin: 20px 0 20px 0;
+	}
+	.questions > div > *{
+		padding-left: 50px;
+	}
+	.questions > div > div{
+		padding-right: 0;
+	}
+	.questions > div{
+		padding-right: 0;
+	}
+	.wrapper{
+		background: url("../img/main-mobile.png") right -20px top no-repeat;
+	}
+	.main-block{
+		margin-top: 50px;
+	}
+	.sign{
+		padding-top: 50px;
+		padding-bottom: 60px;
+	}
+	.sign form{
+		margin-top: 50px;
+	}
+	.sign form a {
+		display: inline-block;
+		width: 23px;
+		height: 23px;
+		margin-top: 4px;
+		background: url("../img/send.png") left top no-repeat;		
+		margin-left: -40px;
+		position: absolute;
+		margin-top: 19px;
+	}	
+	.sign form a:after{
+		content: "";	
+	}
+	.sign form input {
+		width: 75%;
+	}	
+	.sign > div{
+		width: 90%;
+		margin: 0 auto;
+	}	
+/*	.menu span{
+		display: none;
+	}*/
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

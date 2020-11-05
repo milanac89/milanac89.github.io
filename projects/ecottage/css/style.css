@@ -1,0 +1,391 @@
+@import url('reset.css');
+@import url('fonts.css');
+@import url('bootstrap.css');
+@import url('bootstrap-grid.css');
+
+
+body{
+	-webkit-text-size-adjust: 100%;
+	font-family: 'Gilroy';
+	color: #000000;
+	font-size: 18px;
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+header{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+header, .fw500{
+	font-weight: 500;
+}
+.fw700{
+	font-weight: 700;
+}
+nav a{
+	color: #006937;
+	font-size: 18px;
+	display: inline-block;
+	margin-bottom: 7px;
+	-webkit-transition: all 0.2s ease-out 0s;
+	-moz-transition: all 0.2s ease-out 0s;
+	-o-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	position: relative;
+}
+nav a:hover{
+	color: #76BC21;
+}
+nav a:hover:after {
+	content: "";
+	height: 3px;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	background: #76BC21;
+}
+nav{
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+	width: 370px;
+}
+li{
+	list-style: none;
+}
+h2, h3{
+	max-width: 835px;
+}
+h2{
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 1.35;
+	color: #006937;
+}
+h3{
+	font-size: 30px;
+	line-height: 1.35;
+	color: #76BC21;
+}
+.light-green-text{
+	color: #76BC21;
+}
+.green-text, .green-text a{
+	color: #006937;
+}
+.green-text a.active{
+	color: #76BC21;
+}
+.button-top{
+	width: 155px;
+	height: 40px;
+	background: #76BC21;
+	border-radius: 5px;
+	color: #fff;
+	line-height: 40px;
+	font-size: 15px;
+	display: block;
+	text-align: center;
+}
+.phone{
+	margin-bottom: 7px;
+}
+
+
+
+.owl-carousel .item img {
+	display: block;
+	width: 100%;
+	height: auto
+}
+
+.apartments-inner > div{
+	flex-basis: 50%;
+	margin-bottom: 5rem;
+}
+
+input, textarea{
+	font-family: Gilroy;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.close span{
+	font-size: 30px;
+}
+
+.hidden-nav {
+	position: fixed;
+	width: 100%;
+	background-color: #006937;
+	text-align: center;
+	padding: 50px 0 15px 0;
+	z-index: 4;
+	height: 100vh;
+	display: none;
+	top: 0;
+}
+.hidden-nav .close1 {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 20px;
+	height: 20px;
+	background: url('../img/close.svg') center center no-repeat;
+	background-size: auto;
+	background-size: 100%;
+}
+.hidden-nav nav a {
+	color: #fff;
+	display: block;
+}
+.hidden-nav nav{
+	-moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
+}
+.hidden-nav nav a:hover:after {
+	height: 0;
+}
+.my-container{
+	max-width: 1280px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.main{
+	position: relative;
+	margin-bottom: 10vw;
+}
+.left-main-img{
+	position: absolute;
+	left: 0;
+	top: 62%;
+	width: 25%;
+}
+.right-main-img{
+	position: absolute;
+	right: 0;
+	top: 44%;
+	width: 38%;
+}
+h1{
+	font-weight: 600;
+	font-size: 35px;
+	line-height: 1.35;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+	background-color: rgba(0, 105, 55, 0.8);
+	padding: 20px 75px;
+	max-width: 675px;
+	width: 60%;
+	z-index: 1;
+}
+.col-header-1{
+	flex-basis: 35%;
+}
+.col-header-2{
+	flex-basis: 30%;
+}
+.col-header-3{
+	flex-basis: 35%;
+}
+
+.description{
+	max-width: 670px;
+}
+
+.clear-both{
+	clear: both;
+}
+.descr22{
+	font-size: 22px;
+	line-height: 1.35;
+}
+.text{
+	font-size: 17px;
+}
+.text2{
+	font-size: 16px;
+}
+.philosophy-inner{
+	justify-content: space-between;
+	margin-top: 5rem;
+}
+.philosophy-inner > div{
+	max-width: 300px;
+	flex-basis: 28%;
+	margin-right: 5%;
+}
+
+.philosophy-inner > div:last-child{
+	margin-right: 0;
+}
+
+.apartments{
+	position: relative;
+	overflow: hidden;
+	margin-top: -10%;
+	padding-top: 32%;
+	margin-bottom: 7rem;
+}
+.apartments .right-main-img, .environment .right-main-img{
+	top: 0;
+	right: -10%;
+}
+.environment{
+	position: relative;
+	overflow: hidden;
+	padding-top: 12%;
+}
+
+.title-half-width{
+	width: 80%;
+}
+
+.apartments-inner{
+	margin-top: 5rem;
+	align-items: flex-start;
+}
+
+.apartments-inner p{
+	margin-bottom: 0;
+}
+.apartments-inner img{
+	width: 50%;
+	max-width: 110px;
+}
+.mobile-ap-title{
+	display: none;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
+.large-12{
+	position: relative;
+}
+
+.nav{
+	position: absolute;
+	right: 20px;
+	top: -85px;
+}
+
+.health{
+	position: relative;
+	padding-top: 6%;
+}
+.header-health-width{
+	width: 70%;
+}
+
+.health .right-main-img {
+	top: 0;
+	width: 28%;
+}
+.health-items{
+	margin-top: 4rem;
+}
+.health-items > div{
+	flex-basis: 31%;
+	margin-right: 3.5%;
+}
+
+.health-items > div:nth-child(3n+3){
+	margin-right: 0;
+}
+.health-items > div{
+	margin-bottom: 3rem;
+}
+
+.health-items .descr22, .environment-inner .descr22{
+	margin-bottom: 1rem;
+}
+
+.environment-inner > div > div{
+	flex-basis: 31%;
+	margin-right: 3.5%;
+	color: #fff;
+}
+.environment-inner > div{
+	align-self: flex-end;
+	margin-bottom: 65px;
+}
+.environment-inner > div > div:last-child{
+	margin-right: 0;
+}
+
+
+.environment-inner{
+	background: url('../img/footer.jpg') center bottom no-repeat;
+	height: 599px;
+}
+.footer-bottom{
+	clear: left;
+	font-size: 13px;
+	font-weight: 600;
+	padding-top: 15rem;
+	padding-bottom: 3rem;
+}
+
+.footer-bottom img{
+	max-width: 145px;
+	margin-bottom: 2.5rem;
+}
+.title-life{
+	margin-bottom: 3rem;
+}
+.head22{
+	font-size: 22px;
+	margin-bottom: 1rem;
+	line-height: 1.35;
+}
+.footer-text{
+	font-size: 22px;
+	line-height: 1.35;
+	margin-top: 70px;
+}
+
+.footer-text + img{
+	max-width: 705px;
+	width: 50%;
+}
+
+.hidden-nav .button-top{
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent;
+	border: 1px solid #fff;
+}
+
+
+.error-tel::-webkit-input-placeholder, .error-name::-webkit-input-placeholder, .error-mail::-webkit-input-placeholder {
+	color: red;
+}
+.error-tel::-moz-placeholder, .error-name::-moz-placeholder, .error-mail::-moz-placeholder {
+	color: red;
+}/* Firefox 19+ */
+.error-tel:-moz-placeholder, .error-name:-moz-placeholder, .error-mail:-moz-placeholder {
+	color: red;
+}/* Firefox 18- */
+.error-tel:-ms-input-placeholder, .error-name:-ms-input-placeholder, .error-mail:-ms-input-placeholder {
+	color: red;
+}
+
+
+.owl-stage{
+	width: 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+::-webkit-input-placeholder {
+color: #727272;
+}
+::-moz-placeholder {
+color: #727272;
+opacity:1;
+}/* Firefox 19+ */
+:-moz-placeholder {
+color: #727272;
+opacity:1;
+}/* Firefox 18- */
+:-ms-input-placeholder {
+color: #727272;
+}
+
+.color-placeholder::-webkit-input-placeholder{
+color: #909090;
+}
+.color-placeholder::-moz-placeholder {
+color: #909090;
+}/* Firefox 19+ */
+.color-placeholder:-moz-placeholder {
+color: #909090;
+}/* Firefox 18- */
+.color-placeholder:-ms-input-placeholder {
+color: #909090;
+}
+
+.error::-webkit-input-placeholder{
+color: red;
+}
+.error::-moz-placeholder {
+color: red;
+}/* Firefox 19+ */
+.error:-moz-placeholder {
+color: red;
+}/* Firefox 18- */
+.error:-ms-input-placeholder{
+color: red;
+}
+/*input.error-tel, input.error-name, input.error-mail{border:1px solid red;}*/
+
