@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -144,6 +142,7 @@
       <workItem from="1604596553464" duration="24000" />
       <workItem from="1604596845746" duration="313000" />
       <workItem from="1604597350986" duration="613000" />
+      <workItem from="1604607809255" duration="140000" />
     </task>
     <task id="LOCAL-00001" summary="коммит">
       <created>1573596329775</created>
@@ -187,11 +186,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604597368316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="etap 3">
+      <created>1604607834812</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604607834812</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48262000" />
+    <option name="totallyTimeSpent" value="48402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -228,7 +234,8 @@
     <MESSAGE value="тест" />
     <MESSAGE value="etap 1" />
     <MESSAGE value="etap 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="etap 2" />
+    <MESSAGE value="etap 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="etap 3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/select.js" />
