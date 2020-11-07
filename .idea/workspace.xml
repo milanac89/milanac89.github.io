@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="app.13d7bc63.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.13d7bc63.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,6 +116,29 @@
               <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="logos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="works" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,6 +188,7 @@
       <workItem from="1604609832852" duration="728000" />
       <workItem from="1604613404112" duration="405000" />
       <workItem from="1604767483632" duration="1096000" />
+      <workItem from="1604781050284" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="коммит">
       <created>1573596329775</created>
@@ -252,15 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604769381970</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="etap 8">
+      <created>1604781093186</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604781093186</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50631000" />
+    <option name="totallyTimeSpent" value="50733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
