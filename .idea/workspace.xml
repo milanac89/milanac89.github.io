@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/js/app.13d7bc63.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.13d7bc63.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.13d7bc63.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.13d7bc63.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -167,7 +166,7 @@
       <workItem from="1604607809255" duration="140000" />
       <workItem from="1604609832852" duration="728000" />
       <workItem from="1604613404112" duration="405000" />
-      <workItem from="1604767483632" duration="1061000" />
+      <workItem from="1604767483632" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="коммит">
       <created>1573596329775</created>
@@ -246,11 +245,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604767865733</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="etap 8">
+      <created>1604769381970</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604769381970</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50596000" />
+    <option name="totallyTimeSpent" value="50631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -293,7 +299,8 @@
     <MESSAGE value="etap 5" />
     <MESSAGE value="etap 6" />
     <MESSAGE value="etap 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="etap 7" />
+    <MESSAGE value="etap 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="etap 8" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/select-to.js" />
