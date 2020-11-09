@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="" />
+    <list default="true" id="9ec8fe91-bfff-496e-9835-4099d5c10ce9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.e25ec20e.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.e25ec20e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.e25ec20e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.e25ec20e.js.map" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,12 +17,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.13d7bc63.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/app.13d7bc63.js">
+    <leaf>
+      <file leaf-file-name="app.e25ec20e.js.map" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/app.e25ec20e.js.map">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret column="7750" selection-start-column="7745" selection-end-column="7750" />
+            <state relative-caret-position="289">
+              <caret column="47378" selection-start-column="47378" selection-end-column="47378" />
+            </state>
+          </provider>
+          <provider editor-type-id="sourcemapFileViewerProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="app.e25ec20e.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/app.e25ec20e.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret column="3785" selection-start-column="3785" selection-end-column="3785" />
             </state>
           </provider>
         </entry>
@@ -27,7 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>max</find>
       <find>.range-handle</find>
       <find>range-bar</find>
       <find>.input-text</find>
@@ -57,6 +70,7 @@
       <find>acti</find>
       <find>септик</find>
       <find>l_eco</find>
+      <find>5 лет</find>
     </findStrings>
     <dirStrings>
       <dir>D:\sites\milanac89.github.io</dir>
@@ -81,6 +95,8 @@
         <option value="$PROJECT_DIR$/js/menu.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.13d7bc63.js" />
+        <option value="$PROJECT_DIR$/js/app.e25ec20e.js" />
+        <option value="$PROJECT_DIR$/js/app.e25ec20e.js.map" />
       </list>
     </option>
   </component>
@@ -104,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,39 +128,10 @@
               <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="logos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="modal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="milanac89.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="milanac89.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,6 +177,8 @@
       <workItem from="1604613404112" duration="405000" />
       <workItem from="1604767483632" duration="1096000" />
       <workItem from="1604781050284" duration="102000" />
+      <workItem from="1604781790022" duration="112000" />
+      <workItem from="1604922888916" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="коммит">
       <created>1573596329775</created>
@@ -281,14 +271,22 @@
       <option name="project" value="LOCAL" />
       <updated>1604781093186</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="etap 9">
+      <created>1604781842776</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604781842776</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50733000" />
+    <option name="totallyTimeSpent" value="50912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -328,11 +326,10 @@
     <MESSAGE value="etap 6" />
     <MESSAGE value="etap 7" />
     <MESSAGE value="etap 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="etap 8" />
+    <MESSAGE value="etap 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="etap 9" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/select-to.js" />
-    <entry file="file://$PROJECT_DIR$/js/scroll.js" />
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/js/slider.js" />
     <entry file="file://$PROJECT_DIR$/css/slider.css" />
@@ -381,12 +378,21 @@
     <entry file="file://$PROJECT_DIR$/js/main.js" />
     <entry file="file://$PROJECT_DIR$/js/menu.js" />
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/js/app.13d7bc63.js">
+    <entry file="file://$PROJECT_DIR$/js/app.13d7bc63.js" />
+    <entry file="file://$PROJECT_DIR$/js/app.e25ec20e.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret column="7750" selection-start-column="7745" selection-end-column="7750" />
+        <state relative-caret-position="298">
+          <caret column="3785" selection-start-column="3785" selection-end-column="3785" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/app.e25ec20e.js.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret column="47378" selection-start-column="47378" selection-end-column="47378" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
   </component>
 </project>
